@@ -24,6 +24,7 @@
         document.documentElement.dataset.theme = savedTheme;
       }
     } catch (error) {
+      // El sitio conserva el tema del sistema si el almacenamiento no está disponible.
     }
   </script>
   <script src="script.js" defer></script>
@@ -210,9 +211,42 @@
             </a>
           </div>
         </article>
+
+        <article class="project project--ricuras" data-reveal>
+          <a class="project__visual" href="https://ricurasfiestas.videoariel132.workers.dev/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Ricuras Fiestas en una pestaña nueva">
+            <img src="assets/ricuras-fiestas.jpg" width="1348" height="926" alt="Ambientación y mesa dulce de Ricuras Fiestas" loading="lazy">
+            <span class="project__open">Ver sitio <span aria-hidden="true">↗</span></span>
+          </a>
+
+          <div class="project__content">
+            <div class="project__meta">
+              <span>03</span>
+              <span>Diseño UX/UI + Frontend</span>
+            </div>
+            <h3>Ricuras Fiestas</h3>
+            <p>
+              Sitio multipágina para una empresa familiar de organización de eventos en Corrientes, diseñado para presentar cada servicio con claridad y convertir consultas en cotizaciones por WhatsApp.
+            </p>
+            <ul class="project__points">
+              <li>Recorrido completo por quincho, eventos, catering, perniles y alquileres.</li>
+              <li>Galerías dinámicas, precios organizados y navegación responsive.</li>
+              <li>Formularios y llamados a la acción conectados directamente con WhatsApp.</li>
+            </ul>
+            <ul class="tag-list" aria-label="Tecnologías de Ricuras Fiestas">
+              <li>HTML semántico</li>
+              <li>CSS responsive</li>
+              <li>JavaScript</li>
+              <li>Accesibilidad</li>
+              <li>Cloudflare Workers</li>
+            </ul>
+            <a class="text-link" href="https://ricurasfiestas.videoariel132.workers.dev/" target="_blank" rel="noopener noreferrer">
+              Visitar Ricuras Fiestas <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
       </div>
 
-      <div class="other-projects" aria-label="Otros proyectos">
+      <div class="other-projects other-projects--single" aria-label="Otros proyectos">
         <article class="mini-project mini-project--portfolio" data-reveal>
           <div class="mini-project__visual" aria-hidden="true">
             <span>Portfolio / 2026</span>
@@ -234,26 +268,6 @@
           </div>
         </article>
 
-        <article class="mini-project mini-project--ricuras" data-reveal>
-          <div class="mini-project__visual" aria-hidden="true">
-            <span>Proyecto inicial</span>
-            <strong>RF</strong>
-            <i></i><i></i><i></i>
-          </div>
-          <div class="mini-project__content">
-            <p class="eyebrow">Aprendizaje aplicado</p>
-            <h3>Ricuras Fiestas</h3>
-            <p>
-              Web creada para el emprendimiento familiar de organización y decoración de eventos infantiles. Fue uno de mis primeros desafíos de estructura y presentación digital.
-            </p>
-            <ul class="tag-list" aria-label="Tecnologías de Ricuras Fiestas">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Diseño web</li>
-            </ul>
-            <span class="text-link text-link--muted">Proyecto anterior · sin enlace público</span>
-          </div>
-        </article>
       </div>
     </section>
 

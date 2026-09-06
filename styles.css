@@ -1329,6 +1329,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .other-projects--single {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .mini-project {
     grid-template-rows: 280px 1fr;
   }

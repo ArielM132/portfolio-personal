@@ -28,5 +28,5 @@ También podés abrir `index.html` directamente en el navegador. Live Server es 
 - Instagram: `https://www.instagram.com/ariel._morales/`
 - Decants Ctes: `https://decants-ctes.pages.dev/`
 - Hermanos Jota: `https://muebleria-hermanos-jota.videoariel132.workers.dev/`
-
+- Ricuras Fiestas: `https://ricurasfiestas.videoariel132.workers.dev/`
 
