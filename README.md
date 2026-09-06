@@ -30,4 +30,4 @@ También podés abrir `index.html` directamente en el navegador. Live Server es 
 - Hermanos Jota: `https://muebleria-hermanos-jota.videoariel132.workers.dev/`
 - Ricuras Fiestas: `https://ricurasfiestas.videoariel132.workers.dev/`
 
-Deploy sitio web arielmorales.videoariel132.workers.dev
+Deploy sitio web https://arielmorales.videoariel132.workers.dev/
